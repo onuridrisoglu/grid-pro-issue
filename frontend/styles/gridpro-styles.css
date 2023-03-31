@@ -1,0 +1,23 @@
+.alert-cell {
+/* 	pointer-events: none; */
+/* 	user-select: none; */
+}
+
+.alert-cell::slotted(select) {
+/* 	pointer-events: normal; */
+/* 	user-select: normal; */
+}
+
+/* span[class*="alert-cell"] { */
+/* 	cursor: pointer; */
+/* 	margin: calc(var(--lumo-space-xs) * -1) calc(var(--lumo-space-m) * -1); */
+/* } */
+
+/* span[class*="alert-cell"]::before { */
+/* 	display: block; */
+/* 	font-size: 1.2em; */
+/* 	pointer-events: none; */
+/* 	user-select: none; */
+/* 	text-align: center; */
+/* 	padding: 0 0.3em; */
+/* } */
